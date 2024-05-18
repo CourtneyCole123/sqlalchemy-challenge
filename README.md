@@ -4,4 +4,4 @@
 
   ## Station Analysis ##
 
-# Part 2: Part 2: Design Your Climate App #
+# Part 2: Design Your Climate App #
