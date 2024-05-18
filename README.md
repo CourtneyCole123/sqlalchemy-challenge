@@ -1,7 +1,7 @@
 # Part 1: Analyze and Explore the Climate Data #
 
-  ## Precipitation Analysis ##
+  <pre> ## Precipitation Analysis ## </pre>
 
-  ## Station Analysis ##
+  <pre> ## Station Analysis ## </pre>
 
 # Part 2: Design Your Climate App #
