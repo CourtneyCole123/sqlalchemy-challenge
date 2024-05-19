@@ -24,15 +24,27 @@
 
 - Create a query that finds the most recent date in the dataset (8/23/2017)
 
+  ![image](https://github.com/CourtneyCole123/sqlalchemy-challenge/assets/162069113/bf53c331-48f7-41b4-a8fb-be7fb48c3665)
+
 - Create a query that collects only the date and precipitation for the last year of data without passing the date as a variable
+
+  ![image](https://github.com/CourtneyCole123/sqlalchemy-challenge/assets/162069113/f47d95b3-0fc1-4522-b69d-1ce3d377a356)
 
 - Save the query results to a Pandas DataFrame to create date and precipitation columns
 
+  ![image](https://github.com/CourtneyCole123/sqlalchemy-challenge/assets/162069113/ace9ddb7-b275-474d-b2f4-4539736085e6)
+
 - Sort the DataFrame by date
+
+  ![image](https://github.com/CourtneyCole123/sqlalchemy-challenge/assets/162069113/42cbd84c-8737-4e76-83fb-7a8c3a6cdf9c)
 
 - Plot the results by using the DataFrame plot method with date as the x and precipitation as the y variables
 
+  ![image](https://github.com/CourtneyCole123/sqlalchemy-challenge/assets/162069113/01e586d6-29c4-4c10-a444-5f2e86d24741)
+
 - Use Pandas to print the summary statistics for the precipitation data
+
+  ![image](https://github.com/CourtneyCole123/sqlalchemy-challenge/assets/162069113/ad7551c5-c262-46b0-b864-3fac7c049325)
 
   ## Station Analysis 🌐 ##
 
