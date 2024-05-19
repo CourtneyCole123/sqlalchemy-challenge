@@ -50,15 +50,27 @@
 
 - Design a query that correctly finds the number of stations in the dataset (9)
 
+  ![image](https://github.com/CourtneyCole123/sqlalchemy-challenge/assets/162069113/328cfcf5-75b5-4b80-bad5-0cbccb732f2d)
+
 - Design a query that correctly lists the stations and observation counts in descending order and finds the most active station (USC00519281)
+
+  ![image](https://github.com/CourtneyCole123/sqlalchemy-challenge/assets/162069113/ac59c33e-9b62-42df-ad06-e1503d7e4376)
 
 - Design a query that correctly finds the min, max, and average temperatures for the most active station (USC00519281)
 
+  ![image](https://github.com/CourtneyCole123/sqlalchemy-challenge/assets/162069113/35a2a287-fd64-4a63-b509-9d6dffa3f8f6)
+
 - Design a query to get the previous 12 months of temperature observation (TOBS) data that filters by the station that has the greatest number of observations
+
+  ![image](https://github.com/CourtneyCole123/sqlalchemy-challenge/assets/162069113/436e467a-eda9-4d24-abd0-1f529363c7eb)
 
 - Save the query results to a Pandas DataFrame
 
+  ![image](https://github.com/CourtneyCole123/sqlalchemy-challenge/assets/162069113/eca6fe2c-6f1e-4511-9691-e62a37cc6387)
+
 - Correctly plot a histogram with bins=12 for the last year of data using tobs as the column to count.
+
+  ![image](https://github.com/CourtneyCole123/sqlalchemy-challenge/assets/162069113/62acbcd2-4b2a-4f76-b4db-4a2e2e200620)
 
   <pre> Special Note: I learned to sort tuples in a list using https://www.geeksforgeeks.org/sort-in-python/.</pre>
 
