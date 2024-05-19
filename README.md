@@ -2,13 +2,23 @@
 
 - Use the SQLAlchemy create_engine() function to connect to your SQLite database
 
+  ![image](https://github.com/CourtneyCole123/sqlalchemy-challenge/assets/162069113/7b374d0a-480d-42cb-99d4-bdc9a8f59fd0)
+
 - Use the SQLAlchemy automap_base() function to reflect your tables into classes
+
+  ![image](https://github.com/CourtneyCole123/sqlalchemy-challenge/assets/162069113/d44bb70f-ea31-4839-94cc-c23e2945912d)
 
 - Save references to the classes named station and measurement
 
+  ![image](https://github.com/CourtneyCole123/sqlalchemy-challenge/assets/162069113/8f5540fd-708d-405b-a4c6-8ce92768deae)
+
 - Link Python to the database by creating a SQLAlchemy session
 
+  ![image](https://github.com/CourtneyCole123/sqlalchemy-challenge/assets/162069113/970be9b4-871e-4882-ad21-8b3b1c16f3e5)
+
 - Close your session at the end of your notebook
+
+  ![image](https://github.com/CourtneyCole123/sqlalchemy-challenge/assets/162069113/9cce117f-78e4-4cd1-8ac3-a1d78df85696)
 
   ## Precipitation Analysis 🌧️ ##
 
