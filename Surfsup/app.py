@@ -7,7 +7,6 @@ from sqlalchemy import create_engine, func
 
 from flask import Flask, jsonify
 
-
 #################################################
 # Database Setup
 #################################################
@@ -19,9 +18,7 @@ Base = automap_base()
 Base.prepare(autoload_with=engine)
 
 # Save reference to the table
-stations = Base.classes.station
 measurement = Base.classes.measurement
-
 
 #################################################
 # Flask Setup
