@@ -56,31 +56,31 @@
 
 • A precipitation route that:
 
-    - Returns json with the date as the key and the value as the precipitation
+  - Returns json with the date as the key and the value as the precipitation
 
-    - Only returns the jsonified precipitation data for the last year in the database
+  - Only returns the jsonified precipitation data for the last year in the database
 
 • A stations route that:
 
-    - Returns jsonified data of all of the stations in the database
+  - Returns jsonified data of all of the stations in the database
 
 • A tobs route that:
 
-    - Returns jsonified data for the most active station (USC00519281)
+  - Returns jsonified data for the most active station (USC00519281)
 
-    - Only returns the jsonified data for the last year of data
+  - Only returns the jsonified data for the last year of data
     
 <ins> API Dynamic Route </ins>
 
 • A start route that:
 
-    - Accepts the start date as a parameter from the URL
+  - Accepts the start date as a parameter from the URL
 
-    - Returns the min, max, and average temperatures calculated from the given start date to the end of the dataset
+  - Returns the min, max, and average temperatures calculated from the given start date to the end of the dataset
 
 • A start/end route that:
 
-    - Accepts the start and end dates as parameters from the URL
+  - Accepts the start and end dates as parameters from the URL
 
-    - Returns the min, max, and average temperatures calculated from the given start date to the given end date
+  - Returns the min, max, and average temperatures calculated from the given start date to the given end date
 
