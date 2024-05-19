@@ -28,7 +28,7 @@
 
 
 
-  <pre> Special Note: I learned to sort tuples in a list using https://www.geeksforgeeks.org/sort-in-python/.<pre/pre>
+  <pre> Special Note: I learned to sort tuples in a list using https://www.geeksforgeeks.org/sort-in-python/.</pre>
 
 # Part 2: Design Your Climate App ☀️ #
 
