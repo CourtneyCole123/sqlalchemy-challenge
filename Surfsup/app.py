@@ -42,12 +42,10 @@ def precipitation():
     session = Session(engine)
 
     """Return a list of precipitation data for the last year"""
-    # Query all 
-    results = session.query(stations.name).all()
+    # Query precipitation data for the last year 
+    prcp_year = session.query(measurement.date,measurement.prcp).filter(measurement.date >='2016-08-23').all()
 
-    return jsonify(all_names)
-
-
+    return jsonify(prcp_year)
 
 @app.route("/api/v1.0/stations")
 def stations():
@@ -59,9 +57,3 @@ def stations():
     station_names = session.query(stations.name).all()
 
     return jsonify(station_names)
-
-
-
-
-
-Session.close()
