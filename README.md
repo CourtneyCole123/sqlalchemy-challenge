@@ -78,13 +78,24 @@
 
 - Correctly generate the engine to the correct sqlite file
 
+  ![image](https://github.com/CourtneyCole123/sqlalchemy-challenge/assets/162069113/78e709c8-a595-4a42-a601-38e1fd3ba9ea)
+
 - Use automap_base() and reflect the database schema
+
+  ![image](https://github.com/CourtneyCole123/sqlalchemy-challenge/assets/162069113/a50f4444-3662-4fcd-80de-2d34f7f47eb5)
 
 - Correctly save references to the tables in the sqlite file (measurement and station)
 
+  ![image](https://github.com/CourtneyCole123/sqlalchemy-challenge/assets/162069113/33767b3c-d98b-478a-b87a-100d899424bf)
+
 - Correctly create and binds the session between the python app and database
 
+  ![image](https://github.com/CourtneyCole123/sqlalchemy-challenge/assets/162069113/d9552f67-92f6-4a75-a77a-d9de455a8159)
+
 - Display the available routes on the landing page
+
+  ![image](https://github.com/CourtneyCole123/sqlalchemy-challenge/assets/162069113/3317170b-8d15-46b4-8f6a-9509a73905db)
+
 
 <ins> API Static Routes: </ins> 
 
@@ -93,16 +104,22 @@
   - Returns json with the date as the key and the value as the precipitation
 
   - Only returns the jsonified precipitation data for the last year in the database
+ 
+    ![image](https://github.com/CourtneyCole123/sqlalchemy-challenge/assets/162069113/ae432384-06f7-4534-87f4-7fb5d72225e6)
 
 - A stations route that:
 
   - Returns jsonified data of all of the stations in the database
+ 
+    ![image](https://github.com/CourtneyCole123/sqlalchemy-challenge/assets/162069113/94d37f21-6dfc-4977-b844-414c5af88d89)
 
 - A tobs route that:
 
   - Returns jsonified data for the most active station (USC00519281)
 
   - Only returns the jsonified data for the last year of data
+ 
+    ![image](https://github.com/CourtneyCole123/sqlalchemy-challenge/assets/162069113/e6f7e204-3c12-4bf1-a363-1e0161b40089)
     
 <ins> API Dynamic Route </ins>
 
@@ -111,10 +128,15 @@
   - Accepts the start date as a parameter from the URL
 
   - Returns the min, max, and average temperatures calculated from the given start date to the end of the dataset
+ 
+    ![image](https://github.com/CourtneyCole123/sqlalchemy-challenge/assets/162069113/69702b7b-84a7-4d31-a908-7e9af0238795)
 
 - A start/end route that:
 
   - Accepts the start and end dates as parameters from the URL
 
   - Returns the min, max, and average temperatures calculated from the given start date to the given end date
+ 
+    ![image](https://github.com/CourtneyCole123/sqlalchemy-challenge/assets/162069113/bee8f37f-752d-45e4-a0b9-aced225b7cb7)
+
 
