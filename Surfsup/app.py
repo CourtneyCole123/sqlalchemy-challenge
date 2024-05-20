@@ -43,16 +43,17 @@ def welcome():
         f"Available Routes:<br/>"
         f"/api/v1.0/precipitation<br/>"
         f"/api/v1.0/stations<br/>"
-        f"/api/v1.0/tobs"
-    )
+        f"/api/v1.0/tobs<br/>"
+        f"/api/v1.0/<start><br/>"
+        f"/api/v1.0/<start>/<end>")
 
 
 @app.route("/api/v1.0/precipitation")
 def precipitation():
     # Create our session (link) from Python to the DB
-    session = Session(engine)
+    session = Session(bind=engine)
 
-    """Return a list of precipitation for the last 12 months"""
+    """Return a dictionary of precipitation for the last 12 months with date as the key and precipitation as the value"""
     # Query measurement
     precip = session.query(measurement.date,measurement.prcp).filter(measurement.date >= '2016-08-23').all()
     all_precip = []
@@ -64,7 +65,6 @@ def precipitation():
     session.close()
 
     return jsonify(all_precip)
-    json_string = json.dumps(precip_dict, default=str)
 
 @app.route("/api/v1.0/stations")
 def station_names():
@@ -104,13 +104,44 @@ def tobs():
 
     return jsonify(all_tobs)
 
+@app.route("/api/v1.0/<start>")
+def start(start):
+    # Create our session (link) from Python to the DB
+    session = Session(engine)
+
+    """Fetch the min,avg,max of the temperatures by grabbing path variable supplied by the user"""
+    
+    start_list = session.query(func.min(measurement.tobs),func.avg(measurement.tobs),\
+    func.max(measurement.tobs)).filter(measurement.date >= start).all()
+
+    start_list = list(np.ravel(start_list))
+
+    session.close()
+
+    return jsonify(start_list)
 
 
+@app.route("/api/v1.0/<start>/<end>")
+def start_end(start,end):
+    # Create our session (link) from Python to the DB
+    session = Session(engine)
 
+    """Fetch the min,avg,max of the temperatures by grabbing path variable supplied by the user"""
+    
+    start_end_list = session.query(func.min(measurement.tobs),func.avg(measurement.tobs),\
+    func.max(measurement.tobs)).filter(measurement.date >= start).filter(measurement.date < end).all()
+    start_end = []
 
+    for tob_min, tob_avg, tob_max in start_end_list:
+        start_end_dict = {}
+        start_end_dict['Min'] = tob_min
+        start_end_dict['Avg'] = tob_avg
+        start_end_dict['Max'] = tob_max
+        start_end.append(start_end_dict)
 
+    session.close()
 
-
+    return jsonify(start_end)
 
 if __name__ == "__main__":
     app.run(debug=True)
