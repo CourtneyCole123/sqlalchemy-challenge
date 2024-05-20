@@ -90,11 +90,12 @@
 
 - Correctly create and binds the session between the python app and database
 
-  ![image](https://github.com/CourtneyCole123/sqlalchemy-challenge/assets/162069113/774d4848-0b7f-43b3-8735-5c01c5b396e0)
+  ![image](https://github.com/CourtneyCole123/sqlalchemy-challenge/assets/162069113/d9552f67-92f6-4a75-a77a-d9de455a8159)
 
 - Display the available routes on the landing page
 
-  ![image](https://github.com/CourtneyCole123/sqlalchemy-challenge/assets/162069113/f865da5b-828f-4502-8abd-67a64474e49b)
+  ![image](https://github.com/CourtneyCole123/sqlalchemy-challenge/assets/162069113/3317170b-8d15-46b4-8f6a-9509a73905db)
+
 
 <ins> API Static Routes: </ins> 
 
