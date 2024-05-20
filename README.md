@@ -94,7 +94,7 @@
 
 - Display the available routes on the landing page
 
-
+![image](https://github.com/CourtneyCole123/sqlalchemy-challenge/assets/162069113/f865da5b-828f-4502-8abd-67a64474e49b)
 
 <ins> API Static Routes: </ins> 
 
@@ -127,10 +127,15 @@
   - Accepts the start date as a parameter from the URL
 
   - Returns the min, max, and average temperatures calculated from the given start date to the end of the dataset
+ 
+    ![image](https://github.com/CourtneyCole123/sqlalchemy-challenge/assets/162069113/69702b7b-84a7-4d31-a908-7e9af0238795)
 
 - A start/end route that:
 
   - Accepts the start and end dates as parameters from the URL
 
   - Returns the min, max, and average temperatures calculated from the given start date to the given end date
+ 
+    ![image](https://github.com/CourtneyCole123/sqlalchemy-challenge/assets/162069113/bee8f37f-752d-45e4-a0b9-aced225b7cb7)
+
 
