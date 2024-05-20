@@ -94,7 +94,7 @@
 
 - Display the available routes on the landing page
 
-![image](https://github.com/CourtneyCole123/sqlalchemy-challenge/assets/162069113/f865da5b-828f-4502-8abd-67a64474e49b)
+  ![image](https://github.com/CourtneyCole123/sqlalchemy-challenge/assets/162069113/f865da5b-828f-4502-8abd-67a64474e49b)
 
 <ins> API Static Routes: </ins> 
 
