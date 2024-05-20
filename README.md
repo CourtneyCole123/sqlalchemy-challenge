@@ -78,13 +78,23 @@
 
 - Correctly generate the engine to the correct sqlite file
 
+  ![image](https://github.com/CourtneyCole123/sqlalchemy-challenge/assets/162069113/78e709c8-a595-4a42-a601-38e1fd3ba9ea)
+
 - Use automap_base() and reflect the database schema
+
+  ![image](https://github.com/CourtneyCole123/sqlalchemy-challenge/assets/162069113/a50f4444-3662-4fcd-80de-2d34f7f47eb5)
 
 - Correctly save references to the tables in the sqlite file (measurement and station)
 
+  ![image](https://github.com/CourtneyCole123/sqlalchemy-challenge/assets/162069113/33767b3c-d98b-478a-b87a-100d899424bf)
+
 - Correctly create and binds the session between the python app and database
 
+  ![image](https://github.com/CourtneyCole123/sqlalchemy-challenge/assets/162069113/774d4848-0b7f-43b3-8735-5c01c5b396e0)
+
 - Display the available routes on the landing page
+
+
 
 <ins> API Static Routes: </ins> 
 
@@ -93,16 +103,22 @@
   - Returns json with the date as the key and the value as the precipitation
 
   - Only returns the jsonified precipitation data for the last year in the database
+ 
+    ![image](https://github.com/CourtneyCole123/sqlalchemy-challenge/assets/162069113/ae432384-06f7-4534-87f4-7fb5d72225e6)
 
 - A stations route that:
 
   - Returns jsonified data of all of the stations in the database
+ 
+    ![image](https://github.com/CourtneyCole123/sqlalchemy-challenge/assets/162069113/94d37f21-6dfc-4977-b844-414c5af88d89)
 
 - A tobs route that:
 
   - Returns jsonified data for the most active station (USC00519281)
 
   - Only returns the jsonified data for the last year of data
+ 
+    ![image](https://github.com/CourtneyCole123/sqlalchemy-challenge/assets/162069113/e6f7e204-3c12-4bf1-a363-1e0161b40089)
     
 <ins> API Dynamic Route </ins>
 
